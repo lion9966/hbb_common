@@ -1902,6 +1902,7 @@ impl LocalConfig {
             store = true;
         }
 
+        //增加
         if store {
             config.store();
         }

@@ -1924,7 +1924,7 @@ impl LocalConfig {
         }
 
         if store {
-            onfig.store();
+            config.store();
         }
         config
     }
